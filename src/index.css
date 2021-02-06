@@ -1,0 +1,91 @@
+.mainNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+.mainNav li {
+  float: left;
+}
+.mainNav li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.mainNav li a.active {
+  color: white;
+  background-color: #4caf50;
+}
+
+.mainNav li a.hover:not(.active),
+.activeLink {
+  background-color: #ddd;
+}
+
+.mainContent {
+  padding-top: 25px;
+}
+.form {
+  grid-area: form;
+}
+.tableList {
+  grid-area: list;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas: "form list list";
+}
+.form label {
+  padding: 5px;
+  content: left;
+}
+.form input {
+  align-items: right;
+}
+
+button {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+  background-color: #00ffff;
+}
+.btn-btm {
+  margin-top: 20px;
+}
+
+.btn-top {
+  margin-bottom: 20px;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 3px solid black;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4caf50;
+  color: white;
+}
+.dltBtn {
+  color: #ff6347;
+}
